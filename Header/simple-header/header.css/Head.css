@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+/*==============================================*/
+header {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: 1px solid rgba(0,0,0,.1) 
+}
+header img {
+    width: 4rem;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 100%;
+    padding: .25rem;
+}
+header h1 {
+    color: #555;
+    font-size: 1.25rem;
+    margin: .67rem 0;
+    font-family: 'Rubik', sans-serif;
+}
+header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: .875rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #777;
+}
