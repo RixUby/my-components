@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+/*.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+  }*/
+  
+/* mindegy melyiket hasznélod a fenti is jó mehg az alsók is*/
+
+.content {
+    min-height: calc(100vh - 50px);
+}
+.footer {
+    height: 50px;
+}
+
+/*html {
+    min-height: 100%;
+    position: relative;
+}
+  
+body {
+    margin-bottom: 50px;
+}
+  
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}*/
+ 
